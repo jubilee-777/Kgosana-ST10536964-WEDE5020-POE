@@ -57,8 +57,15 @@ During the transition from Part 1 to Part 2, significant cascade conflicts and u
 | 2026-09-15 | v2.2 | Re-linked all 5 HTML pages to `css/styles.css` and fixed broken image folder relative paths. |
 | 2026-09-17 | v2.3 | Added full media queries for responsive layouts on Mobile and Tablet screen sizes. |
 | 2026-09-18 | v2.4 | Finalized gallery grid styling, added custom hover states, and updated project documentation also added final mini comments.
+| 2026-09-18 | v2.5 | **Documentation Update** Added responsive design evidence screenshots for Mobile and Desktop views. |
 
 ---
+
+## Responsive Design Evidence
+### Mobile View
+!\[Mobile View\](images/screenshots/mobile-view.png)
+### Desktop View
+!\[Desktop View\](images/screenshots/desktop-view.png)
 
 ## References
 * MDN Web Docs. 2026. *CSS Flexible Box Layout*. Available at: <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout> [Accessed 18 September 2026].
