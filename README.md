@@ -56,7 +56,7 @@ During the transition from Part 1 to Part 2, significant cascade conflicts and u
 | 2026-09-14 | v2.1 | **Page Expansion:** Added 2 new HTML pages to fulfill the 5-page site requirement and added detailed copy across all sections. |
 | 2026-09-15 | v2.2 | Re-linked all 5 HTML pages to `css/styles.css` and fixed broken image folder relative paths. |
 | 2026-09-17 | v2.3 | Added full media queries for responsive layouts on Mobile and Tablet screen sizes. |
-| 2026-09-18 | v2.4 | Finalized gallery grid styling, added custom hover states, and updated project documentation. |
+| 2026-09-18 | v2.4 | Finalized gallery grid styling, added custom hover states, and updated project documentation also added final mini comments.
 
 ---
 
