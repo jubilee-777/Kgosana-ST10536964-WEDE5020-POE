@@ -1,6 +1,4 @@
-/* ==========================================
-   1. WEEK 5: CSS VARIABLES & COLOR PALETTE
-   ========================================== */
+/*CSS VARIABLES & COLOR PALETTE*/
 :root {
     --primary-color: #1a1a1a;
     --accent-color: #d4af37;
@@ -12,9 +10,7 @@
     --border-color: #e0e0e0;
 }
 
-/* ==========================================
-   2. STICKY FOOTER LAYOUT (FLEXBOX)
-   ========================================== */
+/*STICKY FOOTER LAYOUT (FLEXBOX)*/
 * {
     margin: 0;
     padding: 0;
@@ -35,9 +31,7 @@ body {
     min-height: 100vh;
 }
 
-/* ==========================================
-   3. HEADER & NAVIGATION STYLING
-   ========================================== */
+/*HEADER & NAVIGATION STYLING*/
 header {
     background-color: var(--nav-bg);
     color: var(--nav-text);
@@ -78,11 +72,9 @@ nav a.active {
     border-bottom: 2px solid var(--accent-color);
 }
 
-/* ==========================================
-   4. MAIN CONTENT & FEATURE SECTIONS
-   ========================================== */
+/*MAIN CONTENT & FEATURE SECTIONS*/
 main {
-    flex: 1; /* Pushes the footer down naturally */
+    flex: 1; /* Pushed the footer down*/
     max-width: 1200px;
     width: 100%;
     margin: 2rem auto;
@@ -153,15 +145,13 @@ main {
     color: var(--primary-color);
 }
 
-/* ==========================================
-   5. FOOTER STYLING
-   ========================================== */
+/*FOOTER STYLING*/
 footer {
     background-color: var(--nav-bg);
     color: #888888;
     text-align: center;
     padding: 1.5rem 0;
-    margin-top: auto; /* Guarantees footer sits at the bottom */
+    margin-top: auto; /* Guaranteed footer at the bottom */
     border-top: 1px solid #333333;
     font-size: 0.9rem;
 }
@@ -173,9 +163,7 @@ footer {
         gap: 0.5rem;
     }
 }
-/* ==========================================
-   7. GALLERY GRID STYLING
-   ========================================== */
+/*GALLERY GRID STYLING*/
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -200,7 +188,7 @@ footer {
 .gallery-img {
     width: 100%;
     height: 220px;
-    object-fit: cover; /* Ensures photos fill the card without stretching or distorting */
+    object-fit: cover; /* Ensured photos fill the card without stretching or distorting */
     display: block;
     border-bottom: 2px solid var(--accent-color);
 }
@@ -219,9 +207,7 @@ footer {
     font-size: 0.95rem;
     color: #666666;
 }
-/* ==========================================
-   8. SERVICES & PRICING CARD STYLING
-   ========================================== */
+/*SERVICES & PRICING CARD STYLING */
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -280,9 +266,7 @@ footer {
 .service-card ul li:last-child {
     border-bottom: none;
 }
-/* ==========================================
-   9. CONTACT FORM STYLING
-   ========================================== */
+/*==CONTACT FORM STYLING */
 .contact-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
