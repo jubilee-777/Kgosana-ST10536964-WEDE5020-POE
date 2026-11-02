@@ -425,3 +425,30 @@ footer {
   height: 400px;
   display: block;
 }
+
+/* Form Validation & Feedback Styles */
+.form-feedback {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form-feedback.error {
+  background-color: #ffe6e6;
+  color: #d9534f;
+  border: 1px solid #d9534f;
+}
+
+.form-feedback.success {
+  background-color: #e6ffe6;
+  color: #5cb85c;
+  border: 1px solid #5cb85c;
+}
+
+.form-feedback.info {
+  background-color: #e6f7ff;
+  color: #0288d1;
+  border: 1px solid #0288d1;
+}
