@@ -57,35 +57,7 @@
   <div id="lightbox-caption"></div>
 </div>
 
-<script>
-  // Lightbox JavaScript
-  document.addEventListener("DOMContentLoaded", () => {
-    const modal = document.getElementById("lightbox-modal");
-    const modalImg = document.getElementById("lightbox-img");
-    const captionText = document.getElementById("lightbox-caption");
-    const closeBtn = document.querySelector(".close-lightbox");
-    
-    const images = document.querySelectorAll(".gallery-img");
-
-    images.forEach((img) => {
-      img.addEventListener("click", () => {
-        modal.style.display = "block";
-        modalImg.src = img.src;
-        captionText.innerHTML = img.alt;
-      });
-    });
-
-    closeBtn.addEventListener("click", () => {
-      modal.style.display = "none";
-    });
-
-    modal.addEventListener("click", (e) => {
-      if (e.target !== modalImg) {
-        modal.style.display = "none";
-      }
-    });
-  });
-</script>
+<script src="js/script.js"></script>
 
             <div class="gallery-card">
                 <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800" alt="Minimal Motion creative movement photo" class="gallery-img">
