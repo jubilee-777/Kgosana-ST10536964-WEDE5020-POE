@@ -58,6 +58,14 @@ During the transition from Part 1 to Part 2, significant cascade conflicts and u
 | 2026-09-17 | v2.3 | Added full media queries for responsive layouts on Mobile and Tablet screen sizes. |
 | 2026-09-18 | v2.4 | Finalized gallery grid styling, added custom hover states, and updated project documentation also added final mini comments.
 | 2026-09-18 | v2.5 | **Documentation Update** Added responsive design evidence screenshots for Mobile and Desktop views. |
+## Part 2 Feedback Corrections
+
+| Date | Version | Changes Made | Feedback Addressed |
+| :--- | :--- | :--- | :--- |
+| 2026-11-02 | v3.0 | Fixed responsive navigation menu breakpoints and mobile layout scaling. | Part 2 Feedback: Responsive Design - Navigation Menu |
+| 2026-11-02 | v3.0 | Applied responsive CSS rules (`max-width: 100%`) for images across all screen sizes. | Part 2 Feedback: Responsive Design - Image Adaptation |
+| 2026-11-02 | v3.0 | Standardized global CSS default styles, typography spacing, and layout alignment across all pages. | Part 2 Feedback: CSS Default Styles & Typography Alignment |
+| 2026-11-02 | v3.0 | Updated README with visual mobile and desktop responsive design evidence. | Part 2 Feedback: Detailed README & Evidence |
 
 ---
 
